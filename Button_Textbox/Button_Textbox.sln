@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Button_Textbox", "Button_Textbox\Button_Textbox.csproj", "{576497DF-13C5-4471-9D56-7D95F4DDADFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{576497DF-13C5-4471-9D56-7D95F4DDADFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576497DF-13C5-4471-9D56-7D95F4DDADFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576497DF-13C5-4471-9D56-7D95F4DDADFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576497DF-13C5-4471-9D56-7D95F4DDADFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4DDD905-CC19-4220-86C6-57B5F94C7CB8}
+	EndGlobalSection
+EndGlobal
