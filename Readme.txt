@@ -5,3 +5,5 @@ Xin chào mình đang học về WPS
 4-biding
 5-grid
 6-margin+GameCaro tổng kết C1
+7-panel-Stack+Wrap+Dock
+8-Canvas
