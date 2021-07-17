@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Panal_OnWps/1.0.0": {
+        "runtime": {
+          "Panal_OnWps.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Panal_OnWps/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
