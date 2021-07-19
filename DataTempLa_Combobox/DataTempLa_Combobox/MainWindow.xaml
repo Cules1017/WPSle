@@ -1,0 +1,25 @@
+﻿<Window x:Class="DataTempLa_Combobox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataTempLa_Combobox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Resources>
+            <ControlTemplate x:Name='LoadIM' x:Key="a">
+                <ScrollViewer Visibility="Visible" >
+            <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+                        <Image x:Name="Image1" Source="https://vtv1.mediacdn.vn/thumb_w/650/2021/7/9/bocthamu23chaua0807-1625786841495345058895.jpeg"  ></Image>
+                <TextBlock Text="Beeb Asia" HorizontalAlignment="Stretch"  Width="50" Height="50"></TextBlock>
+            </StackPanel>
+              </ScrollViewer>
+            </ControlTemplate>
+        </Grid.Resources>
+        <Button Template="{StaticResource ResourceKey=a}"></Button>
+       
+    </Grid>
+   
+    
+</Window>

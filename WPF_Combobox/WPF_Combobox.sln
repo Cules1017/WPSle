@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Combobox", "WPF_Combobox\WPF_Combobox.csproj", "{0BCE8961-E771-4B8C-9D97-A25093E9BF73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BCE8961-E771-4B8C-9D97-A25093E9BF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCE8961-E771-4B8C-9D97-A25093E9BF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCE8961-E771-4B8C-9D97-A25093E9BF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCE8961-E771-4B8C-9D97-A25093E9BF73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A816197-0AC0-4AC6-9A03-C63461ADB112}
+	EndGlobalSection
+EndGlobal

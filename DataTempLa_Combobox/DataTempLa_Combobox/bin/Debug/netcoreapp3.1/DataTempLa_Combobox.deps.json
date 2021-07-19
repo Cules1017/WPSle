@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DataTempLa_Combobox/1.0.0": {
+        "runtime": {
+          "DataTempLa_Combobox.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataTempLa_Combobox/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
