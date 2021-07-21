@@ -1,0 +1,60 @@
+﻿<Window x:Class="WpfApp1_Combobox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1_Combobox"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox Name="CB1" Width="200" Height="20"  VerticalAlignment="Top" HorizontalAlignment="Right">
+            <Grid Width="200">
+                <CheckBox HorizontalAlignment="Left"></CheckBox>
+                <TextBlock Text="FC Bacelona" HorizontalAlignment="Right"></TextBlock>
+            </Grid>
+            <Grid Width="200">
+                <CheckBox HorizontalAlignment="Left"></CheckBox>
+                <TextBlock Text="FC Bacelona" HorizontalAlignment="Right"></TextBlock>
+            </Grid>
+
+
+            <Grid Width="200">
+                <CheckBox HorizontalAlignment="Left"></CheckBox>
+                <TextBlock Text="FC Bacelona" HorizontalAlignment="Right"></TextBlock>
+            </Grid>
+            <Grid Width="200">
+                <CheckBox HorizontalAlignment="Left"></CheckBox>
+                <TextBlock Text="FC Bacelona" HorizontalAlignment="Right"></TextBlock>
+            </Grid>
+        </ComboBox>
+
+        <ComboBox x:Name="ItemSource" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Width="200" SelectionChanged="ItemSource_SelectionChanged" ></ComboBox>
+        <TextBlock x:Name="ItemSourcePrice" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Width="100" Margin="200 0 0 0" ></TextBlock>
+        <TextBlock Text="Color" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBlock>
+        <ComboBox  x:Name="ColorCB" Height="20" Width="200" Margin="300 30" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+
+                        <Rectangle Fill="{Binding Name}" Margin="0.2 0.2 5 0.2" Width="16"></Rectangle>
+                        <TextBlock Text="{Binding Name}" ></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+        <ComboBox  ItemsSource="{x:Static Fonts.SystemFontFamilies}" x:Name="FontCB" Height="20" Width="200" Margin="300 60" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+
+
+                        <TextBlock Text="{Binding}" Margin="5 0.2 5 0.2"></TextBlock>
+                        <TextBlock Text="FC Bacelona" FontFamily="{Binding}"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+    </Grid>
+</Window>
